@@ -1,6 +1,6 @@
-FROM  cyberdojofoundation/bash:58c4651
+FROM  cyberdojofoundation/jq
 LABEL maintainer=jon@jaggersoft.com
 
-ADD bash_unit /usr/bin/
+ADD verify-jq.sh /usr/bin/
 
 COPY red_amber_green.rb /usr/local/bin
