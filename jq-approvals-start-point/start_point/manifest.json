@@ -1,7 +1,13 @@
 {
     "image_name": "cyberdojofoundation/jq_approvals",
     "display_name": "jq, approvals",
-    "visible_filenames": ["test_hiker.jq", "hiker.jq", "cyber-dojo.sh"],
+    "visible_filenames": [
+        "hiker.jq",
+        "test_hiker.jq",
+        "test_hiker.test_life_the_universe_and_everything.approved",
+        "cyber-dojo.sh",
+        ".gitignore"
+    ],
     "filename_extension": [".jq"],
     "max_seconds": 10,
     "tab_size": 4
